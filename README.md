@@ -1,6 +1,6 @@
 # Тестовое задание в компанию "ООО МАГУС"
 
-> **Готовый сайт можно посмотреть вот здесь:** [https://clever-biscochitos-246f43.netlify.app/](https://clever-biscochitos-246f43.netlify.app/)
+> **Готовую страницу можно посмотреть вот здесь:** [https://clever-biscochitos-246f43.netlify.app/](https://clever-biscochitos-246f43.netlify.app/)
 > 
 - **Время выполнения:** 3 часа
 - **Использованы технологии:**
