@@ -1,0 +1,18 @@
+.bullet-num {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'MediatorBold', sans-serif;
+  font-size: toRem(16);
+  padding: 4px;
+  width: 1.5em;
+  height: 1.5em;
+  border-radius: 50%;
+  background: #000;
+  font-style: normal;
+
+  &__count {
+    color: #fff;
+    text-indent: 0;
+  }
+}

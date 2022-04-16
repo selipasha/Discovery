@@ -1,0 +1,22 @@
+.no-indent {
+  text-indent: 0 !important;
+}
+
+.text-link {
+  color: #D90000;
+  transition: .2s;
+  border-bottom: 1px solid transparent;
+  text-decoration: none;
+
+  &:hover {
+    color: #D90000;
+    border-bottom: 1px solid #D90000;
+  }
+}
+
+.image-long {
+  height: 70vh !important;
+  @media (max-width: 320px) {
+    height: 40vh !important;
+  }
+}

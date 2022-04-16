@@ -1,0 +1,53 @@
+.annotation {
+  margin-top: 32px;
+  display: flex;
+  &__content {
+    margin-left: -20px;
+    z-index: 100;
+  }
+  &__title {
+    font-family: 'Probel', sans-serif;
+    font-size: toRem(48);
+    text-transform: uppercase;
+  }
+  &__body {
+    font-family: 'Mediator', sans-serif;
+    margin-top: 16px;
+    font-size: toRem(16);
+  }
+  &__author {
+    font-family: 'MediatorBold', sans-serif;
+    font-weight: 700;
+    font-size: toRem(16);
+    margin-top: 18px;
+    margin-left: 30px;
+  }
+  &__decor {
+    position: relative;
+  }
+  &__v-line {
+    width: 1px;
+    background: #000;
+    margin-top: 5px;
+    height: calc(100% - 13px);
+  }
+  &__h-line-container {
+    display: flex;
+  }
+  &__h-line {
+    width: 20px;
+    background: #000;
+    height: 1px;
+  }
+  &__dot {
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    background: #000;
+    margin-top: -2px;
+  }
+
+  &__icon {
+    margin-top: -20px;
+  }
+}

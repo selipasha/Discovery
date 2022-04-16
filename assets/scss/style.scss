@@ -1,0 +1,22 @@
+@import "../../node_modules/bootstrap/scss/bootstrap-reboot";
+@import "../../node_modules/bootstrap/scss/bootstrap-grid";
+@import "../../node_modules/bootstrap/scss/bootstrap-utilities";
+@import "base/_functions.scss";
+@import "base/_helpers.scss";
+@import "base/_fonts.scss";
+
+@import "components/_hero.scss";
+@import "components/_bullet-num.scss";
+@import "components/_annotation.scss";
+@import "components/_article.scss";
+@import "components/_article-image.scss";
+@import "components/_dinkus.scss";
+@import "components/_list.scss";
+
+p, h1 {
+  margin: 0;
+}
+
+body {
+  font-family: "DecaSerifNew", serif;
+}
